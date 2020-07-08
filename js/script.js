@@ -4,19 +4,19 @@
 
 
 var mails = ['pinco@email.com' , 'pallo@email.com' , 'tizio@email.com' ,'caio@email.com' , 'sempronio@email.com', 'sole@email.com' , 'luna@email.com' , 'mare@email.com' , 'onda@email.com'];
-console.log(mails);
 var utente = prompt('Inserisci la tua email');
-var registro;
-
+var controllo = false;
 for (var i = 0; i < mails.length; i++)
     {
         if (utente === mails[i])
             {
-            registro = alert('email accettata');
+             controllo= true;
+
             }
-            else
-                {
-                    registro = alert('email non registrata');
-                }
     }
-// document.getElementById('utente').innerHTML = utente;
+if (controllo == true){
+    alert('email accettata');
+    }
+    else {
+        alert('email non accettata');
+    }
