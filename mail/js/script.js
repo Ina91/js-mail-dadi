@@ -19,7 +19,7 @@ if (controllo == true){
     // Lancio Dado
 
     alert('Lancia il dado se il tuo numero è maggiore di quello della macchina vinci.')
-    alert('Effetuaare il lancio ? ');
+    alert('Effettuare il lancio ? ');
     var x = Math.floor(Math.random()*6)+1; //numero casuale da 1 a 6 dado utente
     var y = Math.floor(Math.random()*6)+1;//numero casuale da 1 a 6 dado COMPUTER
     document.getElementById('utente').innerHTML = x;
