@@ -11,34 +11,35 @@
     text-align: center;
 }
 .contenitore {
-
     display: inline-block;
     padding:20px;
     text-align: center;
+    position:relative;
 }
 
+h4{
+    padding: 10px;
+}
 .dado{
-
     height:40px;
     width:40px;
-    color:white;
     text-align: center;
+    color: white;
     font-size: 20px;
+    position:absolute;
+    left:50%;
+    transform: translateX(-50%);
+    padding: 5px;
+    background-color: #80b1b3;
+    border-radius: 10px;
+    box-shadow: 3px 3px #dcdcdc;
 }
-#utente {
- background-color:green;
 
-
-}
-
-#pc{
-    background-color:red;
-}
 
 #risultato{
-
     width: 100%;
     font-size: 30px;
     color: blue;
     text-align: center;
+    margin: 50px auto;
 }
