@@ -1,0 +1,45 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.big-container{
+    width: 500px;
+    margin: 50px auto;
+    border:2px solid blue;
+    text-align: center;
+}
+.contenitore {
+    display: inline-block;
+    padding:20px;
+    text-align: center;
+
+}
+
+#utente {
+height:40px;
+ width:40px;
+ background-color:green;
+ color:white;
+ text-align: center;
+
+
+}
+
+#pc{
+    height:40px;
+    width:40px;
+    background-color:red;
+    color:white;
+    text-align: center;
+
+}
+
+#risultato{
+
+    width: 100%;
+    font-size: 30px;
+    color: blue;
+    text-align: center;
+}
